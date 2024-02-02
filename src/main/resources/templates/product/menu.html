@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>menu</title> 
+    <link rel="stylesheet" href="/static/css/reset.css">
+    <link rel="stylesheet" href="/static/css/product/menu.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <a href="/templates/main.html" class="mainpage"><img src="/static/images/logo.png" class="main-logo"></a>
+            <a href="/" class="login-btn">
+                관리자님
+            </a>
+        </header>
+        <main>
+            <nav class="side-menu">
+                <a href="/">메뉴</a>
+                <a href="/">커뮤니티</a>
+                <!-- a 링크가 아닌 클릭을 통한 js로 변경할 예정이라 고민 -->
+                <!-- onclick='preventClick(event)' 통하여 js에서 role 검사 후 이벤트 -->
+            </nav>
+            <div class="m-container">
+                <!-- 2.로그인 후(메뉴 화면) -->
+                <nav class="m-category">
+                    <button type="button" class="previous-button">◀</button>
+                    <ul class="category-menu">
+                        <li>커피</li>
+                        <li>에이드</li>
+                        <li>간식</li>
+                    </ul>
+                    <button type="button" class="next-button">▶</button>
+                </nav>
+                <div class="m-menu">
+                    <ul class="product">
+                        <li>
+                            <img src="/static/images/coffee.jpg">
+                            <div class="product-info">
+                                <p>아메리카노</p>
+                                <p>1500</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="/static/images/coffee.jpg">
+                            <div class="product-info">
+                                <p>아메리카노</p>
+                                <p>1500</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="/static/images/coffee.jpg">
+                            <div class="product-info">
+                                <p>아메리카노</p>
+                                <p>1500</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="/static/images/coffee.jpg">
+                            <div class="product-info">
+                                <p>아메리카노</p>
+                                <p>1500</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="/static/images/coffee.jpg">
+                            <div class="product-info">
+                                <p>아메리카노</p>
+                                <p>1500</p>
+                            </div>
+                        </li>
+
+                        <li>
+                            <img src="/static/images/coffee.jpg">
+                            <div class="product-info">
+                                <p>아메리카노</p>
+                                <p>1500</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="/static/images/coffee.jpg">
+                            <div class="product-info">
+                                <p>아메리카노</p>
+                                <p>1500</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="/static/images/coffee.jpg">
+                            <div class="product-info">
+                                <p>아메리카노</p>
+                                <p>1500</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="/static/images/coffee.jpg">
+                            <div class="product-info">
+                                <p>아메리카노</p>
+                                <p>1500</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="/static/images/coffee.jpg">
+                            <div class="product-info">
+                                <p>아메리카노</p>
+                                <p>1500</p>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="page-btn">
+                        <button type="button" class="previous-btn">◀</button>
+                            <ul class="menu-page">
+                                <li>1</li>
+                                <li>2</li>
+                                <li>3</li>
+                            </ul>
+                        <button type="button" class="next-btn">▶</button>
+                    </div>
+                </div>
+                <div class="m-order">
+                    
+                </div>
+                <!-- 제품 선택을 통한 모달창 -->
+                <!-- 3.커뮤니티 화면 -->
+            </div>
+        </main>
+    </div>
+</body>
+</html>

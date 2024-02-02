@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>main</title> 
+    <link rel="stylesheet" href="/static/css/reset.css">
+    <link rel="stylesheet" href="/static/css/main.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <a href="/templates/main.html" class="mainpage"><img src="/static/images/logo.png" class="main-logo"></a>
+            <a href="/" class="login-btn">
+                <!-- 이건호님 -->
+            </a>
+        </header>
+        <main>
+            <nav class="side-menu">
+                <a href="/templates/product/menu.html">메뉴</a>
+                <a href="/">커뮤니티</a>
+                <!-- a 링크가 아닌 클릭을 통한 js로 변경할 예정이라 고민 -->
+                <!-- onclick='preventClick(event)' 통하여 js에서 role 검사 후 이벤트 -->
+            </nav>
+            <div class="m-container">
+                <h1>로그인 해주세요.</h1>
+                <div class="login-box">
+                    <div class="login-input">
+                        <input type="text" placeholder="아이디를 입력해주세요.">
+                        <input type="password" placeholder="비밀번호를 입력해주세요.">
+                    </div>
+                    <button type="button">로그인</button>
+                </div>
+                <div class="oauth-login">
+                    <a href="/" class="naver-login"><img src="/static/images/naver-login.png"></a>
+                    <a href="/" class="kakao-login"><img src="/static/images/kakao-login.png"></a>
+                </div>
+                <div class="account-btn">
+                    <a href="/">회원가입</a>
+                    <a href="/">회원찾기</a>
+                </div>       
+            </div>
+        </main>
+    </div>
+</body>
+</html>

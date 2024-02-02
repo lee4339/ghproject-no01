@@ -1,0 +1,179 @@
+body {
+    background-color: orange;
+}
+
+.container {
+    width: 1000px;
+    height: 800px;
+
+    margin: 60px auto;
+    border-radius: 20px;
+
+    background-color: white;
+}
+
+/* 헤더 */
+
+header {
+    height: 80px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border-bottom: 1px solid rgba(164, 157, 157, 0.7);
+
+    /* background-color: rebeccapurple; */
+}
+
+.mainpage {
+    margin-left: 30px;
+}
+
+.main-logo {
+    width: 100px;
+    height: 80px;
+}
+
+.login-btn {
+    margin-right: 30px;
+    font-size: 16px;
+}
+
+.login-btn:hover {
+    color: orange;
+}
+
+/* 메인 */
+main {
+    display: flex;
+}
+/* 사이드 */
+.side-menu {
+    width: 150px;
+    height: 720px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border-right: 1px solid rgba(164, 157, 157, 0.7); ;
+}
+
+.side-menu a {
+    padding: 20px;
+
+    font-size: 16px;
+}
+
+.side-menu a:first-child {
+    margin-top: 10px;
+}
+
+.side-menu a:hover {
+    color: orange;
+}
+
+/* 메인 컨테이너 */
+.m-container {
+    width: 850px;
+    height: 720px;
+    /* background-color: brown; */
+}
+
+/* 로그인 후 -- 메뉴 */
+/* 카테고리 부분 */
+.m-category {
+    display: flex;
+    justify-content: space-around;
+
+    margin: 30px 0px 20px 0px;
+}
+
+.category-menu {
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.category-menu li {
+    cursor: pointer;
+    font-size: 16px;
+
+    text-align: center;
+}
+
+.category-menu li:hover {
+    color: cornflowerblue;
+}
+
+.m-category button {
+    border: none;
+    background-color: white;
+    font-size: 16px;
+}
+
+/* 제품부분 */
+.m-menu {
+    height: 450px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    /* background-color: red; */
+}
+
+.product {
+    width: 100%;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.product li {
+    padding: 20px 20px 0px 20px;
+}
+
+.product img {
+    width: 130px;
+    height: 130px;
+
+    cursor: pointer;
+}
+
+.page-btn {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.menu-page {
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-page li {
+    cursor: pointer;
+}
+
+.menu-page li:hover {
+    color: cornflowerblue;
+}
+
+.page-btn button {
+    border: none;
+    background-color: white;
+    text-align: center;
+}
+
+/* 주문부분 */
+.m-order {
+    margin-top: 20px;
+
+    height: 170px;
+    background-color: cornflowerblue;
+}
+
